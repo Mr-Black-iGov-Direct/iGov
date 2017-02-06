@@ -1,0 +1,87 @@
+
+/* Class = "UIButton"; normalTitle = "About"; ObjectID = "0VY-TL-VjM"; */
+"0VY-TL-VjM.normalTitle" = "About";
+
+/* Class = "UILabel"; text = "Förslag från: "; ObjectID = "1xT-oX-vVv"; */
+"1xT-oX-vVv.text" = "Förslag från: ";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "2aF-4a-5M2"; */
+"2aF-4a-5M2.title" = "Back";
+
+/* Class = "UILabel"; text = "rubrik"; ObjectID = "4gh-A3-1MS"; */
+"4gh-A3-1MS.text" = "rubrik";
+
+/* Class = "UIButton"; normalTitle = "X"; ObjectID = "5JA-Vn-xBw"; */
+"5JA-Vn-xBw.normalTitle" = "X";
+
+/* Class = "UILabel"; text = "if you have any suggestions on improvement "; ObjectID = "8O8-Yk-zHt"; */
+"8O8-Yk-zHt.text" = "if you have any suggestions on improvement ";
+
+/* Class = "UIButton"; normalTitle = "Ok"; ObjectID = "B6V-nZ-UFn"; */
+"B6V-nZ-UFn.normalTitle" = "Ok";
+
+/* Class = "UILabel"; text = "Rubrik"; ObjectID = "Bnw-Vw-fXz"; */
+"Bnw-Vw-fXz.text" = "Rubrik";
+
+/* Class = "UILabel"; text = "iGov"; ObjectID = "Brq-yl-fnK"; */
+"Brq-yl-fnK.text" = "iGov";
+
+/* Class = "UILabel"; text = ".Direct"; ObjectID = "Geb-mc-4fE"; */
+"Geb-mc-4fE.text" = ".Direct";
+
+/* Class = "UILabel"; text = ".Direct"; ObjectID = "JiC-gZ-HmD"; */
+"JiC-gZ-HmD.text" = ".Direct";
+
+/* Class = "UIButton"; normalTitle = "Lagar"; ObjectID = "Pr3-km-1gk"; */
+"Pr3-km-1gk.normalTitle" = "Lagar";
+
+/* Class = "UILabel"; text = "Contact christian@apptimize.se"; ObjectID = "TA5-pA-tYY"; */
+"TA5-pA-tYY.text" = "Contact christian@apptimize.se";
+
+/* Class = "UILabel"; text = "https://igov.direct/se/"; ObjectID = "Ueq-ak-oyi"; */
+"Ueq-ak-oyi.text" = "https://igov.direct/se/";
+
+/* Class = "UILabel"; text = "All data is requested from Riksdagens API"; ObjectID = "W8z-wB-lV0"; */
+"W8z-wB-lV0.text" = "All data is requested from Riksdagens API";
+
+/* Class = "UILabel"; text = "https://github.com/igovdirect/iOS"; ObjectID = "XVg-5r-acm"; */
+"XVg-5r-acm.text" = "https://github.com/igovdirect/iOS";
+
+/* Class = "UIButton"; normalTitle = "Läs mer"; ObjectID = "cMk-D2-M8b"; */
+"cMk-D2-M8b.normalTitle" = "Läs mer";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cRY-md-HdU"; */
+"cRY-md-HdU.text" = "Label";
+
+/* Class = "UILabel"; text = "This application is developed by Apptimize AB"; ObjectID = "cdr-UV-JbF"; */
+"cdr-UV-JbF.text" = "This application is developed by Apptimize AB";
+
+/* Class = "UIButton"; normalTitle = "Beslut"; ObjectID = "d8x-Kc-LKQ"; */
+"d8x-Kc-LKQ.normalTitle" = "Beslut";
+
+/* Class = "UILabel"; text = "or problem"; ObjectID = "ejC-Pa-HYJ"; */
+"ejC-Pa-HYJ.text" = "or problem";
+
+/* Class = "UILabel"; text = "organ"; ObjectID = "fdh-Uw-uE9"; */
+"fdh-Uw-uE9.text" = "organ";
+
+/* Class = "UINavigationItem"; title = "About us"; ObjectID = "fpD-Za-Bl4"; */
+"fpD-Za-Bl4.title" = "About us";
+
+/* Class = "UILabel"; text = "Version 1.00"; ObjectID = "hay-Qu-dXQ"; */
+"hay-Qu-dXQ.text" = "Version 1.00";
+
+/* Class = "UILabel"; text = "Source Code:"; ObjectID = "rcN-vO-fK6"; */
+"rcN-vO-fK6.text" = "Source Code:";
+
+/* Class = "UILabel"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt "; ObjectID = "uhC-m9-ktm"; */
+"uhC-m9-ktm.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ";
+
+/* Class = "UIButton"; normalTitle = "Förslag"; ObjectID = "xGX-Ms-6vK"; */
+"xGX-Ms-6vK.normalTitle" = "Förslag";
+
+/* Class = "UILabel"; text = "Visit our Homepage at:"; ObjectID = "xYl-yR-7Ui"; */
+"xYl-yR-7Ui.text" = "Visit our Homepage at:";
+
+/* Class = "UILabel"; text = "iGov"; ObjectID = "zkF-NL-9gx"; */
+"zkF-NL-9gx.text" = "iGov";

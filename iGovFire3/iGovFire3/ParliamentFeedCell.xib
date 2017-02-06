@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="110" id="KGk-i7-Jjw" customClass="ParliamentFeedCell" customModule="iGovFire3_Norway" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="108"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="108"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Riksdagen: Proposition 2016/17:16" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mC5-lw-o9q">
+                        <rect key="frame" x="8" y="8" width="304" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="Cb4-f2-twJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="11"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Godkännande av klimatavtalet frå Paris" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2G3-37-qwj">
+                        <rect key="frame" x="8" y="28" width="304" height="20"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="riksdagen-logo" translatesAutoresizingMaskIntoConstraints="NO" id="WeW-4z-Orc">
+                        <rect key="frame" x="8" y="58" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="2HT-hE-tN4"/>
+                            <constraint firstAttribute="width" constant="40" id="Q1L-sJ-DfX"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Godkännande av klimatavtalet frå Paris" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="50y-qc-c7U">
+                        <rect key="frame" x="56" y="58" width="256" height="40"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="50y-qc-c7U" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" constant="-2" id="00c-IH-WtY"/>
+                    <constraint firstItem="mC5-lw-o9q" firstAttribute="trailing" secondItem="50y-qc-c7U" secondAttribute="trailing" id="D9D-yk-XlI"/>
+                    <constraint firstItem="WeW-4z-Orc" firstAttribute="bottom" secondItem="50y-qc-c7U" secondAttribute="bottom" id="EJN-iS-be0"/>
+                    <constraint firstItem="mC5-lw-o9q" firstAttribute="trailing" secondItem="2G3-37-qwj" secondAttribute="trailing" id="FY8-p5-e9p"/>
+                    <constraint firstItem="50y-qc-c7U" firstAttribute="leading" secondItem="WeW-4z-Orc" secondAttribute="trailing" constant="8" symbolic="YES" id="Hug-eF-PrH"/>
+                    <constraint firstItem="50y-qc-c7U" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" constant="-2" id="KgU-UC-dR6"/>
+                    <constraint firstItem="WeW-4z-Orc" firstAttribute="top" secondItem="50y-qc-c7U" secondAttribute="top" id="aNV-62-keN"/>
+                    <constraint firstItem="50y-qc-c7U" firstAttribute="top" secondItem="2G3-37-qwj" secondAttribute="bottom" constant="10" id="iBa-Dk-Yaa"/>
+                    <constraint firstItem="mC5-lw-o9q" firstAttribute="leading" secondItem="2G3-37-qwj" secondAttribute="leading" id="iZ8-6n-BKh"/>
+                    <constraint firstItem="2G3-37-qwj" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="mIF-Tj-Mah"/>
+                    <constraint firstItem="mC5-lw-o9q" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="o92-Sa-bb6"/>
+                    <constraint firstItem="2G3-37-qwj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="sgg-w5-xWF"/>
+                    <constraint firstItem="50y-qc-c7U" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="xnH-gF-XeR"/>
+                    <constraint firstItem="2G3-37-qwj" firstAttribute="top" secondItem="mC5-lw-o9q" secondAttribute="bottom" constant="6" id="zVW-3m-mXz"/>
+                    <constraint firstItem="mC5-lw-o9q" firstAttribute="leading" secondItem="WeW-4z-Orc" secondAttribute="leading" id="ztt-Vu-g1C"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dateLabel" destination="mC5-lw-o9q" id="Y7d-8h-Cbl"/>
+                <outlet property="descLabel" destination="50y-qc-c7U" id="PaU-Y4-KlM"/>
+                <outlet property="icon" destination="WeW-4z-Orc" id="sNC-xG-Gu4"/>
+                <outlet property="titleLabel" destination="2G3-37-qwj" id="6kT-52-E7a"/>
+            </connections>
+            <point key="canvasLocation" x="-229" y="-59"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="riksdagen-logo" width="38" height="38"/>
+    </resources>
+</document>

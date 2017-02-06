@@ -1,0 +1,30 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, ’10.0’
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+target "iGovFire3-Sweden" do
+    # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+    use_frameworks!
+    
+    # Pods for iGovFire3
+    pod 'Alamofire', '~> 4.0'
+    pod 'FLEX', '~> 2.0', :configurations => ['Debug']
+    pod 'EZLoadingActivity' #Stable release for Swift 3.0
+
+    target "iGovFire3-Norway" do
+        inherit! :search_paths
+        # Pods for testing
+    end
+    
+    target "iGovFire3Tests" do
+        inherit! :search_paths
+        # Pods for testing
+    end
+    
+    target "iGovFire3UITests" do
+        inherit! :search_paths
+        # Pods for testing
+    end
+    
+end
